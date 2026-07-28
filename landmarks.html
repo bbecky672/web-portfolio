@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Explore the World Project">
+  <meta name="description"
+    content="Explore the most famous landmarks and charming neighbourhoods of Paris, including the Eiffel Tower and Montmartre.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Landmarks — Explore Paris</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <header>
+    <figure class="logo">
+      <img src="Images/logo.png" alt="Explore the World Paris logo" title="Explore the World — Paris">
+    </figure>
+
+    <h1>Landmarks & Neighbourhoods</h1>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="hamburger" title="Open Menu">
+      ☰
+    </label>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="landmarks.html" aria-current="page">Landmarks</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- SECTION 1: SEINE RIVER -->
+    <section>
+      <figure>
+        <img src="Images\Seineriver.jpg"
+             alt="The Seine River flowing through the heart of Paris"
+             title="The Seine River">
+        <figcaption>The Seine River offers scenic walks and romantic views.</figcaption>
+      </figure>
+
+      <article>
+        <p class="eyebrow">Le Fleuve</p>
+        <h2>The Seine River</h2>
+
+        <p>
+          The Seine River flows through the heart of Paris and is one of the city's most
+          beautiful and relaxing attractions. Walking along the riverbanks allows visitors
+          to enjoy scenic bridges, historic buildings, and views of famous landmarks nearby.
+          Many tourists also take river cruises, especially in the evening when the city lights
+          reflect on the water and create a truly romantic Parisian atmosphere.
+        </p>
+      </article>
+    </section>
+
+    <!-- SECTION 2: NOTRE-DAME CATHEDRAL -->
+    <section>
+      <article>
+        <p class="eyebrow">Le Monument</p>
+        <h2>Notre-Dame Cathedral</h2>
+
+        <p>
+          Notre-Dame Cathedral is one of the most important historic monuments in Paris
+          and a masterpiece of Gothic architecture. Located on Île de la Cité, it has stood
+          for centuries as a symbol of French culture, religion, and artistic achievement.
+          Visitors admire its detailed stonework, stained glass windows, and powerful history,
+          making it one of the most unforgettable landmarks in the city.
+        </p>
+      </article>
+
+      <figure>
+        <img src="Images\montmarte-notredam.jpg"
+             alt="Notre-Dame Cathedral standing on the Île de la Cité in Paris"
+             title="Notre-Dame Cathedral">
+        <figcaption>Notre-Dame is a symbol of Parisian history and architecture.</figcaption>
+      </figure>
+    </section>
+
+    <!-- SECTION 3: MONTMARTRE -->
+    <section>
+      <figure>
+        <img src="Images\montmartre.jpg"
+             alt="Montmartre streets with artists and cafés in Paris"
+             title="Montmartre Neighbourhood">
+        <figcaption>Montmartre is known for creativity and charming streets.</figcaption>
+      </figure>
+
+      <article>
+        <p class="eyebrow">Le Quartier</p>
+        <h2>Montmartre Neighbourhood</h2>
+
+        <p>
+          Montmartre is a charming neighbourhood known for its artistic spirit and lively streets.
+          Filled with cafés, street musicians, and painters, it offers a unique village-like feel
+          in the middle of Paris. The area is also home to the stunning Sacré-Cœur Basilica,
+          which sits at the top of a hill and provides breathtaking panoramic views of the city.
+          Montmartre is perfect for visitors looking to experience creativity and Parisian charm.
+        </p>
+
+        <a class="button" href="food.html">Next: Food</a>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Explore the World — Paris</p>
+
+    <nav aria-label="Social Media Links">
+      <ul class="social-links">
+
+        <li>
+          <a href="https://facebook.com" target="_blank" title="Visit our Facebook page">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://instagram.com" target="_blank" title="Visit our Instagram page">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com" target="_blank" title="Visit our Twitter page">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+  </footer>
+
+  <section class="cookie-banner" id="cookieBanner">
+    <h2>Cookies Notice</h2>
+
+    <p>
+      This website uses cookies to improve your browsing experience.
+      You may accept or decline non-essential cookies.
+    </p>
+
+    <button id="acceptCookies">Accept</button>
+    <button id="declineCookies">Decline</button>
+  </section>
+
+  <script src="js/cookies.js"></script>
+</body>
+</html>
